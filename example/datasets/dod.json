@@ -1,0 +1,19 @@
+{
+  "nodes": [
+    {"id": "Department of the Army", "group": 1},
+    {"id": "Department of the Navy", "group": 1},
+    {"id": "Department of the Air Force", "group": 1},
+    {"id": "Joint Chiefs of Staff", "group": 2},
+    {"id": "Secretary of Defense", "group": 2},
+    {"id": "U.S. Cyber Command", "group": 3},
+    {"id": "Special Operations Command", "group": 3}
+  ],
+  "links": [
+    {"source": "Secretary of Defense", "target": "Department of the Army", "value": 10},
+    {"source": "Secretary of Defense", "target": "Department of the Navy", "value": 10},
+    {"source": "Secretary of Defense", "target": "Department of the Air Force", "value": 10},
+    {"source": "Secretary of Defense", "target": "Joint Chiefs of Staff", "value": 5},
+    {"source": "Joint Chiefs of Staff", "target": "Special Operations Command", "value": 8},
+    {"source": "Secretary of Defense", "target": "U.S. Cyber Command", "value": 7}
+  ]
+}

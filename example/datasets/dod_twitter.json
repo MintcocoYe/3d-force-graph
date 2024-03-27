@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {"id": "USArmyReserve Medical Command", "group": 1},
+    {"id": "NATO", "group": 2},
+    {"id": "28th Infantry Division, Artillery Brigade", "group": 1},
+    {"id": "USMC", "group": 1},
+    {"id": "USNationalGuard", "group": 1},
+    {"id": "SpaceForceDoD", "group": 2},
+    {"id": "USNavy", "group": 1},
+    {"id": "USAirForce", "group": 1},
+    {"id": "CENTCOM", "group": 2},
+    {"id": "Howard University", "group": 3},
+    {"id": "Israel Defense Forces", "group": 2},
+    {"id": "Ukraine", "group": 4},
+    {"id": "Brazil", "group": 4},
+    {"id": "Australian Navy", "group": 2},
+    {"id": "Russia", "group": 4}
+  ],
+  "links": [
+    {"source": "USArmyReserve Medical Command", "target": "NATO", "value": 1},
+    {"source": "28th Infantry Division, Artillery Brigade", "target": "USNationalGuard", "value": 1},
+    {"source": "USMC", "target": "USNationalGuard", "value": 1},
+    {"source": "SpaceForceDoD", "target": "USAirForce", "value": 1},
+    {"source": "USNavy", "target": "Australian Navy", "value": 1},
+    {"source": "CENTCOM", "target": "Israel Defense Forces", "value": 1},
+    {"source": "Howard University", "target": "USAirForce", "value": 1},
+    {"source": "CENTCOM", "target": "Ukraine", "value": 1},
+    {"source": "USAirForce", "target": "USNavy", "value": 1},
+    {"source": "USAirForce", "target": "USArmy", "value": 1},
+    {"source": "USAirForce", "target": "USMC", "value": 1},
+    {"source": "USNavy", "target": "USMC", "value": 1},
+    {"source": "USAirForce", "target": "SpaceForceDoD", "value": 1},
+    {"source": "USNationalGuard", "target": "Howard University", "value": 1},
+    {"source": "Brazil", "target": "USAirForce", "value": 1},
+    {"source": "Russia", "target": "Ukraine", "value": 5},
+    {"source": "USNavy", "target": "Russian Navy", "value": 1}
+  ]
+}

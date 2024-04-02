@@ -26,13 +26,11 @@
     {"source": "Howard University", "target": "USAirForce", "value": 1},
     {"source": "CENTCOM", "target": "Ukraine", "value": 1},
     {"source": "USAirForce", "target": "USNavy", "value": 1},
-    {"source": "USAirForce", "target": "USArmy", "value": 1},
     {"source": "USAirForce", "target": "USMC", "value": 1},
     {"source": "USNavy", "target": "USMC", "value": 1},
     {"source": "USAirForce", "target": "SpaceForceDoD", "value": 1},
     {"source": "USNationalGuard", "target": "Howard University", "value": 1},
     {"source": "Brazil", "target": "USAirForce", "value": 1},
     {"source": "Russia", "target": "Ukraine", "value": 5},
-    {"source": "USNavy", "target": "Russian Navy", "value": 1}
   ]
 }
